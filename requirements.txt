@@ -1,0 +1,22 @@
+# Bot de Trading Binance V5.1 - Dependências
+
+# Core
+python-binance==1.0.17
+pandas==2.0.0
+numpy==1.26.4
+
+# Configuração
+PyYAML==6.0
+
+# Async e WebSocket
+websockets==11.0
+aiohttp==3.8.0
+
+# Interface
+rich==13.0.0
+
+# Teclado (Windows/Linux/Mac)
+keyboard==0.13.5
+
+# Opcional (se quiser notificações Telegram)
+# python-telegram-bot==20.0

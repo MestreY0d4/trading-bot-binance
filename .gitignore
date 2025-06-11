@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Configurações com dados sensíveis
+config/settings.yaml
+config/settings_prod.yaml
+config/settings_backup.yaml
+.env
+.env.local
+.env.production
+
+# Dados e logs
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Backups
+*.backup
+*.bak
+backup/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Teste
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentação compilada
+docs/_build/
+site/
+
+# Arquivos temporários
+*.tmp
+*.temp
+tmp/
+temp/
+
+# API Keys e segredos (NUNCA versionar!)
+*api_key*
+*secret*
+credentials/
+secrets/
